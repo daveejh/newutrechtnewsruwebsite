@@ -24,23 +24,3 @@ button {
 button:hover {
     background-color: #478ac9a9;
 }
-
-#header {
-    display: flex;
-    align-items: center;
-    width:100%;
-    justify-content: center;
-}
-
-#headercontainer {
-    display: flex;
-    align-items: center;
-    width:100%;
-    border-bottom:solid 2px black;
-    height:100px
-}
-
-#imgheader {
-    position:absolute;
-    z-index: -1;
-}
