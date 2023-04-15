@@ -24,3 +24,16 @@ button {
 button:hover {
     background-color: #478ac9a9;
 }
+
+@media (max-width: 767px) {
+    #headercontainer {
+      flex-direction: column; /* switch to a column layout */
+      align-items: center;
+    }
+  
+    #headerimage {
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 10px; /* add some spacing between the logo and text */
+    }
+  }
