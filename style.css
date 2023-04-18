@@ -51,3 +51,7 @@ button:hover {
     margin-bottom: 10px; /* add some spacing between the logo and text */
   }
 }
+
+img {
+  pointer-events:none;
+}
